@@ -71,4 +71,4 @@ Create a `.env` file and add the environment variables described in the `.env.sa
 - Postman
 
 ## API Documentation
-- postman: https://documenter.getpostman.com/view/11087517/UVsPR5k6
+- postman: https://documenter.getpostman.com/view/20414080/UzJJtcT2
