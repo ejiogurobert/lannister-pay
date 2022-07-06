@@ -1,0 +1,46 @@
+{
+  "name": "lannister-pay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm .",
+    "dev": "nodemon -r esm .",
+    "test": "cross-env NODE_ENV=test jest --detectOpenHandles --forceExit --coverage",
+    "watch-test": "jest --watchAll --detectOpenHandles --forceExit --coverage --testTimeout=30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejiogurobert/lannister-pay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejiogurobert/lannister-pay/issues"
+  },
+  "homepage": "https://github.com/ejiogurobert/lannister-pay#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "app-root-path": "^3.0.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "jest": "^27.5.1",
+    "jest-esm-transformer": "^1.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "nyc": "^15.1.0",
+    "redis": "^4.0.4",
+    "redis-mock": "^0.56.3",
+    "supertest": "^6.2.2",
+    "winston": "^3.6.0"
+  }
+}
