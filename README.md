@@ -69,7 +69,3 @@ Create a `.env` file and add the environment variables described in the `.env.sa
 - Redis
 - Supertest and jest
 - Postman
-
-## API Documentation
-- postman: https://documenter.getpostman.com/view/11087517/UVsPR5k6
-
